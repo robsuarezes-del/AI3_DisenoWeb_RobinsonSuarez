@@ -1,0 +1,28 @@
+
+# Archivos de configuracion y secretos
+.env
+.env.*
+!.env.example
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.bak
+*.old
+
+# Copias de seguridad
+*.sql.gz
+*.zip
+*.bak.sql
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# Configuracion de editores
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
